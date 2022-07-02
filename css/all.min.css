@@ -15,7 +15,7 @@ body{
   color: #fff;
 }
 .bg-image{
-  background: url("https://raw.githubusercontent.com/divinity1437/melanholy.top/main/1053.png") no-repeat;
+  background: url("/1053.png") no-repeat;
   display: block;
   position: absolute;
   width: 100%;
@@ -43,6 +43,11 @@ body{
   text-align: center;
   overflow: hidden;
   z-index: 100;
+  animation: 1.2s show ease;
+}
+@keyframes show {
+  from { opacity: 0; }
+  to { opacity: 1; }
 }
 .card__img{
   width: 120px;
